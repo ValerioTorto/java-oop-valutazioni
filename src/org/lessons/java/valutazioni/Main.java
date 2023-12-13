@@ -11,7 +11,7 @@ public class Main {
 
         for (int i = 0; i <totalStudents; i++){
             int assenze = randoms.nextInt(0,100);
-            double media = randoms.nextInt(0,10);
+            int media = randoms.nextInt(0,10);
             Studente studente = new Studente(assenze, media);
             students.add(studente);
         }

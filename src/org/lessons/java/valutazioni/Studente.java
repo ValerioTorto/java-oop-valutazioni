@@ -5,7 +5,7 @@ public class Studente {
     private int idStudent;
     private int assenze;
 
-    private double media;
+    private int media;
 
     private static int counter = 10;
 
@@ -27,15 +27,15 @@ public class Studente {
         this.assenze = assenze;
     }
 
-    public double getMedia() {
+    public int getMedia() {
         return media;
     }
 
-    public void setMedia(double media) {
+    public void setMedia(int media) {
         this.media = media;
     }
     //COSTRUTTORE
-    public Studente(int assenze, double media) {
+    public Studente(int assenze, int media) {
         this.idStudent = counter++;
         this.assenze = assenze;
         this.media = media;
